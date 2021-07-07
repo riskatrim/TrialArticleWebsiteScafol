@@ -1,0 +1,104 @@
+@font-face {
+    font-family: inifont;
+    src: url(Lato-Regular.ttf);
+}
+@font-face {
+    font-family: inibold;
+    src: url(Lato-Bold.ttf);
+}
+* {
+    /* border: 1px solid red; */
+    margin: 0px;
+}
+body{
+    font-family: "inifont";
+}
+.bold{
+    font-family: "inibold";
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    color: white;
+    align-items: center;
+    height: 70px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 40vw;
+    justify-content: space-around;
+    margin: 0px;
+}
+li{
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #C4C4C4;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.bg1{
+    background-image: url("duotone\ \(3\).png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.bg1 h1{
+    font-size: 70px;
+}
+.bg1 p{
+    font-size: 25px;
+}
+.box-content {
+    height: 50px;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    transform: translateY(-25px);
+}
+
+.bg2{
+    margin-top: 50px;
+    color: white;
+}
+.kotak{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1C2F3D;
+}
+.img-container {
+    height: 200px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    transform: translateY(-20%);
+}
+.card-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-size: 15px;
+}
